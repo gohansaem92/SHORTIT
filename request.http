@@ -1,0 +1,51 @@
+GET http://localhost:3000/api/short-links/6669323f63a002d85fff1a8a
+
+###
+GET http://localhost:3000/api/short-links
+
+###
+POST http://localhost:3000/api/short-links
+Content-Type: application/json
+
+{
+    "title": "codeit",
+    "url":"https://codeit.kr"
+}
+
+###
+PATCH  http://localhost:3000/api/short-links/6669336163a002d85fff1a94
+Content-Type: application/json
+
+{
+    "title": "codeit-edit3"   
+}
+
+###
+DELETE http://localhost:3000/api/short-links/6669336163a002d85fff1a94
+
+###
+
+GET http://localhost:3000/api/qrcodes/666941b363a002d85fff1aa8
+
+###
+PATCH http://localhost:3000/api/qrcodes/666941b363a002d85fff1aa8
+Content-Type: application/json
+
+{
+    "title": "codeit-edit"
+}
+
+###
+DELETE http://localhost:3000/api/qrcodes/666941b363a002d85fff1aa8
+
+###
+POST http://localhost:3000/api/qrcodes
+Content-Type: application/json
+
+{
+    "title": "codeit",
+    "url":"https://codeit.kr"
+}
+
+###
+GET http://localhost:3000/api/qrcodes

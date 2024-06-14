@@ -1,0 +1,18 @@
+{
+  "/_error": "pages/_error.js",
+  "/_app": "pages/_app.js",
+  "/api/qrcodes/[id]": "pages/api/qrcodes/[id].js",
+  "/_document": "pages/_document.js",
+  "/api/qrcodes": "pages/api/qrcodes.js",
+  "/api/short-links/[id]": "pages/api/short-links/[id].js",
+  "/api/short-links": "pages/api/short-links.js",
+  "/": "pages/index.html",
+  "/qrcodes/new": "pages/qrcodes/new.html",
+  "/short-links/new": "pages/short-links/new.html",
+  "/[shortUrl]": "pages/[shortUrl].js",
+  "/short-links": "pages/short-links.js",
+  "/short-links/[id]": "pages/short-links/[id].js",
+  "/qrcodes/[id]": "pages/qrcodes/[id].js",
+  "/qrcodes": "pages/qrcodes.js",
+  "/404": "pages/404.html"
+}
